@@ -11,6 +11,8 @@ with open(filename,"a") as file:
     line = input("Enter line: ")
 
     # Write newline
+    file.write(line + "\n")
+    
 # Ask the user if there are more lines
 # User response if there are more lines
 # Print the output
