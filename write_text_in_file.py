@@ -17,4 +17,6 @@ with open(filename,"a") as file:
     more_lines =input("Are there more lines y/n? ").strip().lower()
 
     # User response if there are more lines
+    if more_lines != "y":
+        
 # Print the output
