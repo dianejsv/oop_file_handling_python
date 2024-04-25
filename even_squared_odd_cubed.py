@@ -24,3 +24,4 @@ with open(result_odd_numbers, 'w') as file:
         file.write(str(num) + '\n')
 
 # Closing statement
+print("Program executed successfully! :D ")
