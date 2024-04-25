@@ -19,4 +19,5 @@ with open(filename,"a") as file:
     # User response if there are more lines
     if more_lines != "y":
         # if use opt not to enter more lines, exit the loop
+        break
 # Print the output
