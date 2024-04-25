@@ -20,4 +20,5 @@ with open(filename, "a") as file:
         if more_lines != "y":
             # if user opt not to enter more lines, exit the loop
             break
-# Print the output
+# Closing Statement
+print("Thank you for using this program :)")
