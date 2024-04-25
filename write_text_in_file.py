@@ -9,8 +9,8 @@ with open(filename,"a") as file:
 
     # Input from the user
     line = input("Enter line: ")
-    
-# Write newline
+
+    # Write newline
 # Ask the user if there are more lines
 # User response if there are more lines
 # Print the output
