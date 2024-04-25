@@ -8,7 +8,7 @@ with open(filename,"a") as file:
     while True:
 
         # Input from the user
-    line = input("Enter line: ")
+        line = input("Enter line: ")
 
     # Write newline
     file.write(line + "\n")
