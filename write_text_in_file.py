@@ -2,7 +2,7 @@
 filename = "mylife.txt"
 
 # Open file to append
-with open(filename,"a") as file:
+with open(filename, "a") as file:
 
     # Loop for multiple entries
     while True:
