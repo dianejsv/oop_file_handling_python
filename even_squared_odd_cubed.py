@@ -6,11 +6,11 @@ result_odd_numbers = "triple.txt"
 # Read integers from the file
 with open("integers.txt", "r") as file:
     numbers = file.read().split()
-
 # Separate even and odd numbers
 even_numbers = [int(num) for num in numbers if int(num) % 2 == 0]
 odd_numbers = [int(num) for num in numbers if int(num) % 2 != 0]
 
 # Calculate the square of even numbers and the cube of odd numbers
+even_squared = [num ** 2 for num in even_numbers]
 # Write the results
 # Closing statement
