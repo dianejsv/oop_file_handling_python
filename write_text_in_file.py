@@ -5,7 +5,7 @@ filename = "mylife.txt"
 with open(filename,"a") as file:
 
     # Loop for multiple entries
-    While True:
+    while True:
 
     # Input from the user
     line = input("Enter line: ")
@@ -19,5 +19,4 @@ with open(filename,"a") as file:
     # User response if there are more lines
     if more_lines != "y":
         # if use opt not to enter more lines, exit the loop
-        break
 # Print the output
