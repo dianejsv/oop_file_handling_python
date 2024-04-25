@@ -1,4 +1,6 @@
 # Assigning file name
+filename = "mylife.txt"
+
 # Open file to append
 # Loop for multiple entries
 # Input from the user
