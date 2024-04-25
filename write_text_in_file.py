@@ -7,7 +7,7 @@ with open(filename,"a") as file:
     # Loop for multiple entries
     while True:
 
-    # Input from the user
+        # Input from the user
     line = input("Enter line: ")
 
     # Write newline
