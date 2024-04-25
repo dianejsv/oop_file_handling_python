@@ -12,5 +12,7 @@ odd_numbers = [int(num) for num in numbers if int(num) % 2 != 0]
 
 # Calculate the square of even numbers and the cube of odd numbers
 even_squared = [num ** 2 for num in even_numbers]
+odd_cubed = [num ** 3 for num in odd_numbers]
+
 # Write the results
 # Closing statement
