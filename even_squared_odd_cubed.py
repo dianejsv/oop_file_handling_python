@@ -4,6 +4,7 @@ result_even_numbers = "double.txt"
 result_odd_numbers = "triple.txt"
 
 # Read integers from the file
+with open("integers.txt", "r") as file:
 # Separate even and odd numbers
 # Calculate the square of even numbers and the cube of odd numbers
 # Write the results
