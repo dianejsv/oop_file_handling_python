@@ -16,5 +16,6 @@ odd_numbers = [num for num in numbers if num % 2 != 0]
 with open("even.txt", "w") as even_file:
     for num in even_numbers:
         even_file.write(str(num) + "\n")
+
 # Write odd number integers to "odd.txt"
 # Print the output
