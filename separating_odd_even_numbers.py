@@ -6,6 +6,7 @@ with open("numbers.txt", "r") as file:
     numbers = file.readlines()
 # Strip any whitespaces
 numbers = {int(num.strip()) for num in numbers}
+ 
 # Separate odd and even integers from the list
 even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
