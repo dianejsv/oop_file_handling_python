@@ -5,6 +5,8 @@ filename = "mylife.txt"
 with open(filename,"a") as file:
 
     # Loop for multiple entries
+    While True:
+    
 # Input from the user
 # Write newline
 # Ask the user if there are more lines
