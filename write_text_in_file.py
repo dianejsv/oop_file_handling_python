@@ -13,7 +13,7 @@ with open(filename,"a") as file:
         # Write newline
         file.write(line + "\n")
 
-    # Ask the user if there are more lines
+        # Ask the user if there are more lines
     more_lines =input("Are there more lines y/n? ").strip().lower()
 
     # User response if there are more lines
