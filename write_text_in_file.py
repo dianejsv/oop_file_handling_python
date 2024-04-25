@@ -10,7 +10,7 @@ with open(filename,"a") as file:
         # Input from the user
         line = input("Enter line: ")
 
-    # Write newline
+        # Write newline
     file.write(line + "\n")
 
     # Ask the user if there are more lines
