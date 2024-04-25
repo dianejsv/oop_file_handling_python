@@ -18,4 +18,5 @@ with open("even.txt", "w") as even_file:
         even_file.write(str(num) + "\n")
 
 # Write odd number integers to "odd.txt"
+with open("odd.txt", "w") as odd_file:
 # Print the output
