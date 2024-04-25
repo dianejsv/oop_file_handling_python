@@ -15,4 +15,6 @@ even_squared = [num ** 2 for num in even_numbers]
 odd_cubed = [num ** 3 for num in odd_numbers]
 
 # Write the results
+with open(result_even_numbers, 'w') as file:
+    for num in even_squared:
 # Closing statement
