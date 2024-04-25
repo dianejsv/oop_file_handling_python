@@ -10,4 +10,8 @@ top_student = ""
 for line in students_record:
     name, gwa = line.strip().split(",")
     gwa = float(gwa)
+
+    if gwa <= highest_gwa:
+        highest_gwa = gwa
+        top_student = name
 # Display student's name with highest GWA
