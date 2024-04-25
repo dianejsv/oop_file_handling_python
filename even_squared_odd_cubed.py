@@ -17,4 +17,5 @@ odd_cubed = [num ** 3 for num in odd_numbers]
 # Write the results
 with open(result_even_numbers, 'w') as file:
     for num in even_squared:
+        file.write(str(num) + '\n')
 # Closing statement
