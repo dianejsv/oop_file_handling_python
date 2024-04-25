@@ -8,4 +8,5 @@ top_student = ""
 
 # Checking of the student with highest GWA
 for line in students_record:
+    name, gwa = line.strip().split(",")
 # Display student's name with highest GWA
