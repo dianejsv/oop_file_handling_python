@@ -21,5 +21,6 @@ with open("even.txt", "w") as even_file:
 with open("odd.txt", "w") as odd_file:
     for num in odd_numbers:
         odd_file.write(str(num) + "\n")
-        
+
 # Print the output
+print("Files 'even.txt' and 'odd.txt' created successfully.")
