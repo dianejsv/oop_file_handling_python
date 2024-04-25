@@ -19,4 +19,6 @@ with open(result_even_numbers, 'w') as file:
     for num in even_squared:
         file.write(str(num) + '\n')
 
+with open(result_odd_numbers, 'w') as file:
+    for num in odd_cubed:
 # Closing statement
