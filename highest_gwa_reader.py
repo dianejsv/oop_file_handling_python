@@ -15,3 +15,5 @@ for line in students_record:
         highest_gwa = gwa
         top_student = name
 # Display student's name with highest GWA
+print(f"The student with the highest GWA is {top_student} with a GWA of {highest_gwa}.")
+
